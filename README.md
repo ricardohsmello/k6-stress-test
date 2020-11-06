@@ -2,6 +2,7 @@
 ![Forks](https://img.shields.io/github/forks/ricardohsmello/k6-stress-test) 
 ![Stars](https://img.shields.io/github/stars/ricardohsmello/k6-stress-test) 
 ![Release Version](https://img.shields.io/github/release/ricardohsmello/k6-stress-test)
+[![Build Status](https://travis-ci.org/ricardohsmello/k6-stress-test.svg?branch=main)](https://travis-ci.org/ricardohsmello/k6-stress-test)
 
 # k6-stress-test
 
