@@ -1,4 +1,4 @@
 language: java
-
+script: ./gradlew build jacocoTestReport
 after_success:
-  - mvn clean test jacoco:report coveralls:report
+- ./gradlew jacocoRootReport coveralls
