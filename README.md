@@ -19,8 +19,6 @@ This project was created to simulate the use of the k6 test. There is an endpoin
 ## Running the application in dev mode
 
 ```
-cd k6-stress-test
-
 ./gradlew quarkusDev
 ```
 
