@@ -17,18 +17,41 @@ This project was created to simulate the use of the k6 test. There is an endpoin
 
 ## Running the application in dev mode
 
-You can run your application in dev mode that enables live coding using:
-```shell script
+```
+cd k6-stress-test
+
 ./gradlew quarkusDev
 ```
 
 ## Running k6 stress test
 
-
-Inside k6-stress-test directory, run script.js:
 ```
 TOTAL=15 k6 run --vus 10 --duration 30s script.js
 ```
  - TOTAL = number of iterations that intStream will use to generate map content
  - vus = number of virtual user (k6 documentation)
  - duration = duration of test (k6 documentation)
+ 
+## Understanding results
+
+Running k6 we noticed the log "running k6", but in a moment we started to have error "request failed"
+this happened on purpose when the application was stopped. Then, we ran the application again and the logs continue
+
+<p align="center">
+    <img src="./images/k6-running.png" height="450">
+</p>
+
+
+Quarkus LOGGER will print "Reading Data" when the request access the endpoint
+
+<p align="center">
+    <img src="./images/quarkus-running.png" height="450">
+</p>
+
+The final k6 results
+
+<p align="center">
+    <img src="./images/k6-result.png" height="450">
+</p>
+
+
