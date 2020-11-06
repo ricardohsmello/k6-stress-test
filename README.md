@@ -34,23 +34,23 @@ TOTAL=15 k6 run --vus 10 --duration 30s script.js
  
 ## Understanding results
 
-Running k6 we noticed the log "running k6", but in a moment we started to have error "request failed"
+Running k6 we noticed the log **"running k6"**, but in a moment we started to have error **"request failed"**
 this happened on purpose when the application was stopped. Then, we ran the application again and the logs continue
 
-<p align="center">
+<p align="start">
     <img src="./images/k6-running.png" height="450">
 </p>
 
 
-Quarkus LOGGER will print "Reading Data" when the request access the endpoint
+Quarkus LOGGER will print **"Reading Data"** when the request access the endpoint
 
-<p align="center">
-    <img src="./images/quarkus-running.png" height="250">
+<p align="start">
+    <img src="./images/quarkus-running.png" height="150">
 </p>
 
 The final k6 results
 
-<p align="center">
+<p align="start">
     <img src="./images/k6-result.png" height="450">
 </p>
 
