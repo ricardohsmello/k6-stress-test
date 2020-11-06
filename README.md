@@ -3,9 +3,9 @@
 ![Stars](https://img.shields.io/github/stars/ricardohsmello/k6-stress-test) 
 ![Release Version](https://img.shields.io/github/release/ricardohsmello/k6-stress-test)
 
-# k6-stress-test project
+# k6-stress-test
 
-this project was created to simulate the use of the k6 test. There is an endpointthat creates a map with a sequence of integers. After this endpoint is up, scritp.js executes the tests, stressing it according to the variables informed during the run.
+This project was created to simulate the use of the k6 test. There is an endpointthat creates a map with a sequence of integers. After this endpoint is up, scritp.js executes the tests, stressing it according to the variables informed during the run.
 
 ## Technologies
 
