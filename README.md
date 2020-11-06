@@ -45,7 +45,7 @@ this happened on purpose when the application was stopped. Then, we ran the appl
 Quarkus LOGGER will print "Reading Data" when the request access the endpoint
 
 <p align="center">
-    <img src="./images/quarkus-running.png" height="450">
+    <img src="./images/quarkus-running.png" height="250">
 </p>
 
 The final k6 results
