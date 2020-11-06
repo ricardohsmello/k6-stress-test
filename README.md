@@ -12,6 +12,9 @@ This project was created to simulate the use of the k6 test. There is an endpoin
 - [`Quarkus`](https://quarkus.io/) - Framework
 - [`k6`](https://k6.io/) - K6 
 
+## Prerequisites
+- [`Jdk11`](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) - Language
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
