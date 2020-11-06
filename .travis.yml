@@ -1,4 +1,1 @@
 language: java
-script: ./gradlew build jacocoTestReport
-after_success:
-- ./gradlew jacocoRootReport coveralls
