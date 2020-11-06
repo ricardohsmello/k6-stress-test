@@ -5,9 +5,7 @@
 
 # k6-stress-test project
 
-This project uses Quarkus, the Supersonic Subatomic Java Framework.
-
-If you want to learn more about Quarkus, please visit its website: https://quarkus.io/ .
+this project was created to simulate the use of the k6 test. There is an endpointthat creates a map with a sequence of integers. After this endpoint is up, scritp.js executes the tests, stressing it according to the variables informed during the run.
 
 ## Technologies
 
