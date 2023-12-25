@@ -53,4 +53,3 @@ The final k6 results
     <img src="./images/k6-result.png" height="450">
 </p>
 
-
